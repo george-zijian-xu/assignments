@@ -1,0 +1,12 @@
+num=int(input("number"))
+a=(num%10000)//1000
+b=(num%1000)//100
+c=(num%100)//10
+d=(num%10)//1
+a,b,c,d=b,a,d,c
+w=(a+5)%10
+x=(b+5)%10
+y=(c+5)%10
+z=(d+5)%10
+number=w*1000+x*100+y*10+z
+print(number)
